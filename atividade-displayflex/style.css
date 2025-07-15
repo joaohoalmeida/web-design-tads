@@ -5,4 +5,31 @@
 
 .cabecalho{
     background-color: aquamarine;
+    width: 20%;
+    padding: 1em;
+}
+
+.cabecalho ul{
+    list-style-type: none;
+}
+
+.pagina-principal{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    width: 70%;
+}
+
+.card{
+    height: 15em;
+    width: 10em;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.conteudo-1{
+    background-color: antiquewhite;
+    border-bottom: 1px solid black;
+    padding: 1em;
+    text-align: center;
 }
