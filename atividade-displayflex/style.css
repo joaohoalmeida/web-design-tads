@@ -3,21 +3,37 @@
     padding: 0;
 }
 
+body{
+    display: flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 .cabecalho{
-    background-color: aquamarine;
+    background-color: rgb(72, 121, 121);
     width: 20%;
+    height: 100vh;
+    position: static;
     padding: 1em;
+}
+
+.cabecalho h1{
+    padding-bottom: 1em;
 }
 
 .cabecalho ul{
     list-style-type: none;
 }
 
+.cabecalho ul li{
+    color: white;
+    padding-bottom: 0.5em;
+}
+
 .pagina-principal{
     display: flex;
     flex-wrap: wrap;
-    gap: 2em;
-    width: 70%;
+    justify-content: space-evenly;
+    width: 80%;
 }
 
 .card{
