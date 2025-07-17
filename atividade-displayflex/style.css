@@ -12,7 +12,7 @@ body{
     background-color: rgb(72, 121, 121);
     width: 20%;
     height: 100vh;
-    position: relative;
+    position: static;
     padding: 1em;
 }
 
@@ -40,7 +40,7 @@ main{
     display: flex;
     margin-bottom: 1em;
     justify-content: space-between;
-
+    align-items: center;
 }
 
 .usuario{
