@@ -12,7 +12,7 @@ body{
     background-color: rgb(72, 121, 121);
     width: 20%;
     height: 100vh;
-    position: static;
+    position: relative;
     padding: 1em;
 }
 
@@ -29,23 +29,65 @@ body{
     padding-bottom: 0.5em;
 }
 
+main{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1em;
+    margin-top: 1em;
+}
+
+.topo{
+    display: flex;
+    margin-bottom: 1em;
+    justify-content: space-between;
+
+}
+
+.usuario{
+    display: flex;
+    align-items: center;
+}
+
 .pagina-principal{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
     width: 80%;
+    row-gap: 1em;
+}
+
+.pagina-principal h2{
+    flex-basis: 100%;
+    margin-bottom: 1em;
 }
 
 .card{
-    height: 15em;
+    box-sizing: border-box;
     width: 10em;
-    border: 1px solid black;
     border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px rgb(219, 219, 219);
 }
 
 .conteudo-1{
-    background-color: antiquewhite;
-    border-bottom: 1px solid black;
+    height: 5em;
     padding: 1em;
+    display: flex;
     text-align: center;
+    justify-content: center;
+    background-color: rgb(238, 238, 238);
+
+}
+
+.conteudo-2{
+    display: flex;
+    justify-content: center;
+    height: 4em;
+}
+
+.icones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 0.5em;
 }
