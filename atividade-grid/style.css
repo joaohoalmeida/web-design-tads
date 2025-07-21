@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+}
+
+body{
+    height: 100vh;
+}
+
+.cabecalho{
+    background: linear-gradient(to left,#7292A6, #224459);
+    width: 100hv;
+    padding: 1em;
+
+}
+
+.cabecalho div{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cabecalho h1{
+    flex-basis: 100%;
+    color: white;
+}
+
+.cabecalho h2{
+    color: white;
+}
+
+main{
+    margin-top: 1em;
+    display: grid;
+    grid-template-columns: 200px;
+    grid-template-columns: 4fr 4fr;
+}
+
+.navegacao{
+    background-color: rgb(197, 209, 217);
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    width: 10em;
+}
+
+.navegacao ul{
+    list-style: none;
+}
+
+.navegacao li{
+    padding: 1em;
+}
+
+.box{
+    background-color: rgb(236, 236, 236);
+    display: flex;
+    width: 11em;
+    height: 10em;
+    justify-content: center;
+    align-items: center;
+}
+
+.box span{
+    color:#224459;
+    font-weight: bold;
+}
+
+.programacao{
+    background-color: rgb(236, 236, 236);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1em;
+
+}
+.programacao table{
+    flex-basis: 100%;
+    border-collapse: collapse;
+}
+
+.programacao table td{
+    padding: 0.2em;
+}
+
+.programacao h2{
+    flex-basis: 100%;
+    margin-bottom: 1em;
+}
+
+td{
+    border: 1px solid rgb(255, 255, 255);
+}
+
+footer{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 5em;
+    background-color: #224459;
+    color: white;
+}
+
