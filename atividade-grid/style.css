@@ -5,8 +5,31 @@
 }
 
 body{
-    height: 100vh;
+    min-height: 100vh;
 }
+
+main {
+    display: grid;
+    margin-top: 1em;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 15px;
+    grid-template-areas:
+        "nav box-evento programacao  programacao imagem-1"
+        "nav box-palestras inscricao   imagem-3    imagem-2"
+        "nav imagem-4    inscricao   organizacao organizacao";
+}
+
+.navegacao       { grid-area: nav; }
+.box-evento      { grid-area: box-evento; }
+.programacao     { grid-area: programacao; }
+.box-palestras   { grid-area: box-palestras; }
+.inscricao       { grid-area: inscricao; }
+.imagem-1        { grid-area: imagem-1; }
+.imagem-2        { grid-area: imagem-2; }
+.imagem-3        { grid-area: imagem-3; }
+.imagem-4        { grid-area: imagem-4; }
+.box-organizacao { grid-area: organizacao; }
 
 .cabecalho{
     background: linear-gradient(to left,#7292A6, #224459);
@@ -53,8 +76,6 @@ main{
 .box-evento{
     background-color: rgb(236, 236, 236);
     display: flex;
-    width: 11em;
-    height: 10em;
     justify-content: center;
     align-items: center;
 }
@@ -76,6 +97,8 @@ main{
 
 .box-palestras{
     background-color: rgb(236, 236, 236);
+    padding: 2em;
+    width: 10em;
 
 }
 
@@ -85,8 +108,6 @@ img{
 
 .imagem-1{
     justify-content: center;
-    width: 209px;
-    height: 139px;
     display: flex;
     position: relative;
     color: white;
@@ -122,7 +143,6 @@ img{
 
 .inscricao{
     display: flex;
-    width: 20%;
     justify-content: center;
     align-items: center;
     background-color: rgb(236, 236, 236);
