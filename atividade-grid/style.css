@@ -5,6 +5,8 @@
 }
 
 body{
+    
+    height: 100vh;
     background-color: #ffffff;
     display: grid;    
     grid-template-columns: auto auto auto auto auto auto;
@@ -21,18 +23,37 @@ body{
 
 header{
     display: flex;
-    background-color: blue;    
-    grid-area: header;
+    background: linear-gradient(to left,#7292A6, #224459);
     flex-wrap: wrap;
+    padding: 1em;
+    grid-area: header;
 }
 
 header h1{
+    color: white;
+    flex-basis: 100%;
+}
+
+header h2{
+    color: white;
     flex-basis: 100%;
 }
 
 nav{
     display: flex;
     grid-area: nav;
+    background-color: rgb(197, 209, 217);
+    color: rgb(51, 115, 138)
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 1em;
+}
+
+nav li{
+    padding-bottom: 1em;
+    font-size: larger;
 }
 
 .box-1{
@@ -43,8 +64,26 @@ nav{
 
 .prog{
     display: flex;
+    flex-wrap: wrap;
     background-color: rgb(236, 236, 236);
     grid-area: prog;
+    padding: 1em;
+
+}
+
+.prog h2{
+    flex-basis: 100%;
+    padding: 0.2em;
+}
+
+table{
+    border-collapse: collapse;
+    flex-basis: 100%;
+}
+
+table td{
+    border: 1px solid white;
+    padding: 0.3em;
 }
 
 .p1{
@@ -74,6 +113,7 @@ nav{
 }
 
 .org{
+    background-color: rgb(236, 236, 236);
     grid-area: org;
 }
 
@@ -82,7 +122,14 @@ img{
     height: auto;
 }
 
+span{
+    color: #224459;
+    font-weight: bold;
+}
+
 footer{
-    background-color: blue;
+    background-color: #224459;
+    color: white;
+    text-align: center;
     grid-area: footer;
 }
