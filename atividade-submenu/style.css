@@ -5,58 +5,65 @@
 }
 
 body{
-    background-color: rgb(247, 247, 247);
+    background-color: rgb(5, 31, 52);
 }
 
-nav{
+header{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(7, 26, 41);
+    gap:  10em;
 }
 
 nav div{
-    flex-basis: 100%;
-    background-color: rgb(18, 42, 77);
-    padding-left: 1em;;
+    display: flex;
+    gap: 2em;
 }
 
 a{
     text-decoration: none;
     color: white;
+    font-size: larger;
 }
 
-
-h1{
-    color: white;
-    padding-left: 1em;
+a:hover{
+    color: rgb(241, 107, 37);
 }
 
-.diatinf{
-    display: flex;
-    align-items: center;
-    background: linear-gradient(to left,#7292A6, #224459);
-    height: 5em;
-    width: 100%;
+img{
+    width: 200px;
+    height: auto;
 }
 
 .dropdown{
     position: relative;
     display: inline-block;
+
 }
 
 .dropdown-content{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(247, 247, 247);
     display: none;
     position: absolute;
     z-index: 1;
+    width: 150px;
 }
 
 .dropdown-content a{
-    display: block;
-    padding: 1em;
+    flex-basis: 100%;
+    color: black;
 }
 
 .dropdown-content a:hover{
-    background-color: rgb(211, 211, 238);
+    color: rgb(241, 107, 37);
 }
+
 
 .dropdown:hover .dropdown-content{
     display: block;
 }
+
