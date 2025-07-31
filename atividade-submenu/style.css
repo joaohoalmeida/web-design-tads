@@ -4,18 +4,24 @@
 }
 
 nav{
-    padding: 1em;
     display: flex;
-    gap: 10px;
 }
 
 nav div{
     flex-basis: 100%;
+    background-color: rgb(18, 42, 77);
     border: 1px solid navy;
 }
 
 h2{
+    color: white;
     text-align: center;
+}
+
+.diatinf{
+    background-color: blue;
+    height: 10em;
+    width: 100%;
 }
 
 .dropdown{
@@ -32,7 +38,13 @@ h2{
 .dropdown-content a{
     color: black;
     text-decoration: none;
+    color: white;
     display: block;
+    padding: 1em;
+}
+
+.dropdown-content a:hover{
+    background-color: aqua;
 }
 
 .dropdown:hover .dropdown-content{
