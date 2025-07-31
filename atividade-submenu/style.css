@@ -33,6 +33,7 @@ a:hover{
 }
 
 img{
+    padding: 1em;
     width: 200px;
     height: auto;
 }
@@ -40,30 +41,26 @@ img{
 .dropdown{
     position: relative;
     display: inline-block;
-
 }
 
 .dropdown-content{
-    display: flex;
-    flex-wrap: wrap;
-    background-color: rgb(247, 247, 247);
     display: none;
+    background-color: rgb(247, 247, 247);
     position: absolute;
     z-index: 1;
-    width: 150px;
 }
 
 .dropdown-content a{
-    flex-basis: 100%;
     color: black;
+    display: block;
+    padding: 0.3em;
 }
 
 .dropdown-content a:hover{
     color: rgb(241, 107, 37);
+    background-color: rgb(7, 26, 41);
 }
-
 
 .dropdown:hover .dropdown-content{
     display: block;
 }
-
