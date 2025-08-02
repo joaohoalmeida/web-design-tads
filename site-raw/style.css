@@ -163,11 +163,11 @@ input[type=text], input[type=tel], select, textarea{
     margin-bottom: 1em;
     font-family: Atkinson Hyperlegible Mono;
     resize: none;
+    border: none;
 
 }
 
 input[type=submit]{
-    position: relative;
     border: none;
     font-family: Atkinson Hyperlegible Mono;
     padding: 1em;
