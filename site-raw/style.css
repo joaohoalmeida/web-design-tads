@@ -58,7 +58,6 @@ header nav ul li a:hover{
 /* Formatação Body */
 body{
     font-family: Atkinson Hyperlegible Mono;
-    min-height: 100vh;
     background-image: 
     linear-gradient(rgba(185, 168, 113, 0.5), rgba(185, 168, 113, 0.5)), 
     url(imagens/symphony.png);
@@ -134,6 +133,7 @@ footer{
 .faq-section{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .faq-section details{
@@ -145,11 +145,14 @@ footer{
 .faq-section details:last-child{
     border-bottom: 1px solid rgb(180, 180, 180)
 }
+
+.faq-section h2{
+    margin-bottom: 1em;
+}
 /* Fim Formatação do FAQ */
 
 
 /* Início Formatação Formulário */
-
 form{
     background-color: aliceblue;
     padding: 1em;
@@ -176,10 +179,7 @@ input[type=submit]{
     padding: 1em;
     right: lef
 }
-
 /* Fim Formatação Formulário */
-
-
 
 
 /*Formatação da Página Atual*/
