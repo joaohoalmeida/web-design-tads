@@ -59,7 +59,7 @@ header nav ul li a:hover{
 body{
     font-family: Atkinson Hyperlegible Mono;
     background-image: 
-    linear-gradient(rgba(185, 168, 113, 0.5), rgba(185, 168, 113, 0.5)), 
+    linear-gradient(rgba(239, 203, 104, 0.3), rgba(239, 203, 104, 0.3)), 
     url(imagens/symphony.png);
 }
 /* Fim Formatação Body*/
