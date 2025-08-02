@@ -6,7 +6,6 @@
 }
 
 /* Formatação do Cabeçalho */
-
 header{
     align-items: center;
     display: flex;
@@ -56,13 +55,15 @@ header nav ul li a:hover{
 /* Fim Formatação do Cabeçalho */
 
 
+/* Formatação Body */
 body{
     font-family: Atkinson Hyperlegible Mono;
     min-height: 100vh;
 }
+/* Fim Formatação Body*/
+
 
 /* Formatação Main */
-
 main{
     background-color: beige;
     margin: auto;
@@ -113,21 +114,20 @@ main ul li{
     list-style-type: none;
     
 }
-
  /* Fim Formatação Main */
 
 
 /* Formatação Rodapé */
-
 footer{
     padding: 1em;
     bottom: 0;
     text-align: center;
     background-color: blanchedalmond;
 }
+/* Fim Formatação Rodapé */
 
-/* Formatação */
 
+/* Formatação do FAQ */
 .faq-section{
     display: flex;
     flex-wrap: wrap;
@@ -141,4 +141,45 @@ footer{
 
 .faq-section details:last-child{
     border-bottom: 1px solid rgb(180, 180, 180)
+}
+/* Fim Formatação do FAQ */
+
+
+/* Início Formatação Formulário */
+
+form{
+    background-color: aliceblue;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+  padding: 1em 1em 1em 0;
+}
+
+input[type=text], input[type=tel], select, textarea{
+    padding: 1em;
+    margin-bottom: 1em;
+    font-family: Atkinson Hyperlegible Mono;
+    resize: none;
+
+}
+
+input[type=submit]{
+    position: relative;
+    border: none;
+    font-family: Atkinson Hyperlegible Mono;
+    padding: 1em;
+    right: lef
+}
+
+/* Fim Formatação Formulário */
+
+
+
+
+/*Formatação da Página Atual*/
+.atual{
+    border-bottom: 1px solid black;
 }

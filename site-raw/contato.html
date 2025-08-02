@@ -21,16 +21,29 @@
                 <li><a href="sobre.html">SOBRE</a></li>
                 <li><a href="pratos.html">PRATOS</a></li>
                 <li><a href="faq.html">FAQ</a></li>
-                <li><a href="contato.html">ENTRE EM CONTATO</a></li>
+                <li class="atual"><a href="contato.html">ENTRE EM CONTATO</a></li>
             </ul>
         </nav>
 
     </header>
 
     <main>
-        <section>
 
-        </section>
+
+    <form>
+        <label for="nome">Seu nome?</label>
+        <input type="text" id="nome" name="nome" placeholder="Nome...">
+        <label for="numero">Seu número?</label>
+        <input type="tel" id="numero" name="numero" placeholder="Número...">
+        <label for="objetivo">O que deseja?</label>
+        <select id="objetivo" name="objetivo">
+            <option value="reserva">Reserva</option>
+            <option value="mensagem">Mensagem</option>
+        </select>
+        <label for="mensagem">Deixe sua mensagem/reserva</label>
+        <textarea id="mensagem" name="mensagem" placeholder="Escreva..." style="height: 200px;"></textarea>
+        <input type="submit" value="Enviar">
+    </form>
         
         
         
