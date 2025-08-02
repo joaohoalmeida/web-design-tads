@@ -13,6 +13,7 @@ header{
     background-color: #ebd2a2;
     padding: 1em;
     height: 5em;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
 header picture{
@@ -44,13 +45,13 @@ header nav h1 a{
 }
 
 header nav ul li a{
-    color: black;
+    color:#573325;
     text-decoration: none;
 }
 
 header nav ul li a:hover{
-    color: black;
-    border-bottom: 1px solid black
+    color: #573325;
+    border-bottom: 1px solid #573325;
 }
 /* Fim Formatação do Cabeçalho */
 
@@ -75,6 +76,7 @@ main{
 }
 
 main section{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: auto auto;
@@ -85,11 +87,13 @@ main section{
 
 article h2{
     text-align: center;
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid #573325;
 }
 
 main section article{
+    
     background-color: #d9bd8e;
+    color: #573325;
     padding: 2em;
     grid-area: p;
 }
@@ -114,7 +118,23 @@ main ul{
 
 main ul li{
     list-style-type: none;
-    
+}
+
+button{
+    border: 2px solid #573325;
+    color: #573325;
+    border-radius: 5px;
+    background-color: #d9bd8e;
+    font-weight: bold;
+    padding: 1em;
+    font-family: Atkinson Hyperlegible Mono;
+    transition: background-color, color 1s;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #573325;
+    color: white;
 }
  /* Fim Formatação Main */
 
@@ -133,20 +153,28 @@ footer{
 .faq-section{
     display: flex;
     flex-wrap: wrap;
+    padding: 1em;
     justify-content: center;
+    background-color: #d9bd8e;
+}
+
+.faq-section summary{
+    color: #573325;
+    font-weight: bold;
 }
 
 .faq-section details{
     padding: 1em;
     flex-basis: 100%;
-    border-top: 1px solid rgb(180, 180, 180)
+    border-top: 1px dotted #573325
 }
 
 .faq-section details:last-child{
-    border-bottom: 1px solid rgb(180, 180, 180)
+    border-top: 1px dotted #573325
 }
 
 .faq-section h2{
+    color: #573325;
     margin-bottom: 1em;
 }
 /* Fim Formatação do FAQ */
@@ -184,5 +212,5 @@ input[type=submit]{
 
 /*Formatação da Página Atual*/
 .atual{
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #573325;
 }
