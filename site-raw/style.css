@@ -1,9 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:ital,wght@0,200..800;1,200..800&family=Cedarville+Cursive&display=swap');
 
 *{
     margin: 0;
     padding: 0;
-    font-family: Jost;
 }
 
 /* Formatação do Cabeçalho */
@@ -28,6 +27,7 @@ header picture img{
 }
 
 header h1{
+    font-family: Cedarville Cursive;
     font-weight: normal;
     text-align: center;
 }
@@ -55,6 +55,11 @@ header nav ul li a:hover{
 }
 /* Fim Formatação do Cabeçalho */
 
+
+body{
+    font-family: Atkinson Hyperlegible Mono;
+    min-height: 100vh;
+}
 
 /* Formatação Main */
 
@@ -109,7 +114,7 @@ main ul li{
     
 }
 
- /*Fim Formatação Main */
+ /* Fim Formatação Main */
 
 
 /* Formatação Rodapé */
@@ -119,4 +124,21 @@ footer{
     bottom: 0;
     text-align: center;
     background-color: blanchedalmond;
+}
+
+/* Formatação */
+
+.faq-section{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.faq-section details{
+    padding: 1em;
+    flex-basis: 100%;
+    border-top: 1px solid rgb(180, 180, 180)
+}
+
+.faq-section details:last-child{
+    border-bottom: 1px solid rgb(180, 180, 180)
 }
