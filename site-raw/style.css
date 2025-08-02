@@ -60,8 +60,8 @@ body{
     font-family: Atkinson Hyperlegible Mono;
     min-height: 100vh;
     background-image: 
-    linear-gradient(rgba(240, 234, 214, 0.75), rgba(240, 234, 214, 0.75)), 
-    url(imagens/pipes.webp);
+    linear-gradient(rgba(185, 168, 113, 0.5), rgba(185, 168, 113, 0.5)), 
+    url(imagens/symphony.png);
 }
 /* Fim Formatação Body*/
 
@@ -70,7 +70,7 @@ body{
 main{
     background-color: #865b33;
     margin: auto;
-    height: 100%;
+    min-height: 100vh;
     width: 900px;
     padding: 2em 3em 2em;
 }
