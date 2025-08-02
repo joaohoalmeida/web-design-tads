@@ -10,7 +10,7 @@ header{
     align-items: center;
     display: flex;
     justify-content: center;
-    background-color: antiquewhite;
+    background-color: #ebd2a2;
     padding: 1em;
     height: 5em;
 }
@@ -59,13 +59,16 @@ header nav ul li a:hover{
 body{
     font-family: Atkinson Hyperlegible Mono;
     min-height: 100vh;
+    background-image: 
+    linear-gradient(rgba(240, 234, 214, 0.75), rgba(240, 234, 214, 0.75)), 
+    url(imagens/pipes.webp);
 }
 /* Fim Formatação Body*/
 
 
 /* Formatação Main */
 main{
-    background-color: beige;
+    background-color: #865b33;
     margin: auto;
     height: 100%;
     width: 900px;
@@ -87,7 +90,7 @@ article h2{
 }
 
 main section article{
-    background-color: bisque;
+    background-color: #d9bd8e;
     padding: 2em;
     grid-area: p;
 }
